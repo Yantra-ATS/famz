@@ -10,6 +10,7 @@ version = '0.0.1-SNAPSHOT'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(20)
+       // Use ANY or specify a vendor if needed // You can specify different vendors
     }
 }
 

@@ -17,7 +17,7 @@ import java.util.Map;
     public class JwtTokenProvider {
 
         private final UserDetailsServiceImpl userDetailsService;
-        private final String SECRET_KEY = "your_secret_key"; // Replace with your actual secret key
+        private final String SECRET_KEY = "famz_0509223"; // Replace with your actual secret key
         private final long EXPIRATION_TIME = 86400000; // 1 day in milliseconds
 
         public JwtTokenProvider(UserDetailsServiceImpl userDetailsService) {
