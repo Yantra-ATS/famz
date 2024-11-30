@@ -1,0 +1,12 @@
+apiVersion: v1beta1
+kind: Service
+metadata:
+  name: springboot-service
+spec:
+  selector:
+    app: springboot
+  ports:
+    - protocol: TCP
+      port: 80  # Port exposed to external traffic
+      targetPort: 8080  # Container port where your app is running
+  type: LoadBalancer  # Automatically provisions an Elastic Load Balancer (ELB)
