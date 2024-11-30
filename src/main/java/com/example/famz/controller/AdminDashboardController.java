@@ -1,5 +1,4 @@
 package com.example.famz.controller;
-
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminDashboardController {
 
     @GetMapping("/dashboard")
-   // @PreAuthorize("hasRole('ROLE_ADMIN')") // Ensure only users with ADMIN role can access
+    @PreAuthorize("hasAnyAuthority('SCOPE_email', 'SCOPE_openid')")
     public String getDashboard() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
@@ -24,9 +23,5 @@ public class AdminDashboardController {
         }
     }
 
-    @GetMapping("/test")
-    // @PreAuthorize("hasRole('ROLE_ADMIN')") // Ensure only users with ADMIN role can access
-    public String test() {
-        return "Welcome to the Admin Dashboard, ";
-    }
+
 }

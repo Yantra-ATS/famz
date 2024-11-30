@@ -21,7 +21,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web' // For REST APIs
-    implementation 'org.springframework.boot:spring-boot-starter-security' // For security
+   // implementation 'org.springframework.boot:spring-boot-starter-security' // For security
     // Password encoder is part of Spring Security
     implementation 'org.springframework.security:spring-security-crypto'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // For JPA
@@ -33,6 +33,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation' // For validation
     implementation 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok' // For Gradle
+
+    //Ne
+    implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
+    implementation("org.springframework.boot:spring-boot-starter-oauth2-resource-server")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("org.springframework.boot:spring-boot-starter-web")
 
 
     // Test dependencies
