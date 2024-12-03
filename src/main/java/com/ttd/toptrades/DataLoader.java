@@ -1,6 +1,6 @@
-package com.example.famz; ;
-import com.example.famz.entity.Role;
-import com.example.famz.repository.RoleRepository;
+package com.ttd.toptrades; ;
+import com.ttd.toptrades.entity.Role;
+import com.ttd.toptrades.repository.RoleRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

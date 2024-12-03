@@ -1,4 +1,4 @@
-package com.example.famz.DTO;
+package com.ttd.toptrades.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

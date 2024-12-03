@@ -1,4 +1,4 @@
-package com.example.famz.security;
+package com.ttd.toptrades.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

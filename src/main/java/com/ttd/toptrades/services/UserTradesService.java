@@ -1,8 +1,8 @@
-package com.example.famz.services;
+package com.ttd.toptrades.services;
 
-import com.example.famz.DTO.CreateTradeRequest;
-import com.example.famz.entity.UserTrades;
-import com.example.famz.repository.UserTradesRepository;
+import com.ttd.toptrades.dto.CreateTradeRequest;
+import com.ttd.toptrades.entity.UserTrades;
+import com.ttd.toptrades.repository.UserTradesRepository;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.jwt.Jwt;

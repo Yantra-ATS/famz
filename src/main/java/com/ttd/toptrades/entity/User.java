@@ -1,4 +1,4 @@
-package com.example.famz.entity;
+package com.ttd.toptrades.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

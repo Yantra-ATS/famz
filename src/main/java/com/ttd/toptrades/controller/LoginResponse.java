@@ -1,4 +1,4 @@
-package com.example.famz.controller;
+package com.ttd.toptrades.controller;
 
 import java.util.Set;
 

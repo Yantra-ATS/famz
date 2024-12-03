@@ -1,4 +1,4 @@
-package com.example.famz.controller;
+package com.ttd.toptrades.controller;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;

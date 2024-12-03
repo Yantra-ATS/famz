@@ -1,7 +1,7 @@
-package com.example.famz.repository;
+package com.ttd.toptrades.repository;
 
 
-import com.example.famz.entity.User;
+import com.ttd.toptrades.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

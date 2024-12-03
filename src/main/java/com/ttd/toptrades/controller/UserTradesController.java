@@ -1,9 +1,8 @@
-package com.example.famz.controller;
+package com.ttd.toptrades.controller;
 
-import com.example.famz.DTO.CreateTradeRequest;
-import com.example.famz.entity.UserTrades;
-import com.example.famz.services.UserTradesService;
-import org.springframework.http.HttpStatus;
+import com.ttd.toptrades.dto.CreateTradeRequest;
+import com.ttd.toptrades.entity.UserTrades;
+import com.ttd.toptrades.services.UserTradesService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,5 @@
-package com.example.famz.services;
-import com.example.famz.entity.Role;
-import com.example.famz.entity.User;
-import com.example.famz.repository.UserRepository;
+package com.ttd.toptrades.services;
+import com.ttd.toptrades.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.GrantedAuthority;
 //import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -9,10 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.userdetails.UserDetailsService;
 //import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class UserDetailsServiceImpl  {

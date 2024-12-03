@@ -1,5 +1,5 @@
-package com.example.famz.repository;
-import com.example.famz.entity.Role;
+package com.ttd.toptrades.repository;
+import com.ttd.toptrades.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

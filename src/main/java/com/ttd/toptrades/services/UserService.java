@@ -1,9 +1,9 @@
-package com.example.famz.services;
+package com.ttd.toptrades.services;
 
-import com.example.famz.entity.Role;
-import com.example.famz.entity.User;
-import com.example.famz.repository.RoleRepository;
-import com.example.famz.repository.UserRepository;
+import com.ttd.toptrades.entity.Role;
+import com.ttd.toptrades.entity.User;
+import com.ttd.toptrades.repository.RoleRepository;
+import com.ttd.toptrades.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
